@@ -1,0 +1,71 @@
+mainColor = #2F51B5
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+footer {
+  text-align center
+  padding-top 10px
+}
+* {
+  text-align center
+  font-family: 'Roboto', sans-serif;
+  text-decoration none
+}
+h1, h4 {
+  text-shadow none
+}
+a {
+  color mainColor
+}
+.hover {
+  box-shadow 0em 0em 1em #888888
+}
+.well {
+  text-align center
+  margin auto
+  border 1px solid lightgrey
+  width 50%
+  padding 2em
+  transition box-shadow 1s
+}
+.fa-quote-left {
+  padding-right 10px
+  color mainColor
+}
+.fa-quote-right {
+  padding-left 10px
+  color mainColor
+}
+.getQuote {
+  padding 10px
+  margin-top 20px
+  background mainColor
+  border 1px solid mainColor
+  color #FFFFFF
+  border-radius 5px
+  text-transform uppercase
+  transition all 0.3s ease 0s
+  text-align right
+}
+/* .getQuote:hover {
+  color mainColor
+  background #ffffff
+  border 1px solid mainColor
+} */
+small {
+  float right
+}
+.twitter {
+  padding 10px
+  margin-top 20px
+  background mainColor
+  border 1px solid mainColor
+  color #FFFFFF
+  border-radius 5px
+  text-transform uppercase
+  transition all 0.3s ease 0s
+  text-align right
+}
+@media screen and (min-width: 101px) and (max-width: 760px) {
+  .well {
+    width:75%;
+  }
+}
