@@ -1,4 +1,6 @@
-mainColor = #2F51B5
+// those variables tho
+mainColor = #3498db
+
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 footer {
   text-align center
@@ -16,7 +18,7 @@ a {
   color mainColor
 }
 .hover {
-  box-shadow 0em 0em 1em #888888
+  box-shadow 0em 0em 2em #888888
 }
 .well {
   text-align center
@@ -68,4 +70,10 @@ small {
   .well {
     width:75%;
   }
+}
+* {
+  outline 0
+}
+.getQuote:active {
+   box-shadow 0em 0em 0em #7f8c8d
 }
